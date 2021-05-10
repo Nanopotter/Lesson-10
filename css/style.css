@@ -1,9 +1,6 @@
 .form-block {
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   
 }
 .input-block {
@@ -23,12 +20,8 @@
 }
 .form-box {
     margin-left: 139px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     margin-right: 139px;
 
 }
@@ -49,7 +42,6 @@
     color: blue;
 }
 
-
 .input2-block {
     width: 352px;
     height: 60px;
@@ -67,12 +59,8 @@
     padding: 30px;
 }
 .form2-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
+   
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            /* justify-content: space-between; */
     margin-left: 139px;
     margin-right: 139px;
     
@@ -109,8 +97,6 @@
 }
 
 .box-wraper {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin-left: 139px;
    
@@ -120,15 +106,9 @@
     height: 60px;
     background-color: #5863F8;
     border-radius: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     color: #FFFFFF;
     margin: 0 auto;
 }
