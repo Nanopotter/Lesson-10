@@ -1,0 +1,150 @@
+.form-block {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  
+}
+.input-block {
+    width: 200px;
+    height: 45px;
+    margin-top: 15px;
+    padding: 15px;
+    border: none;
+}
+.container {
+    width: 100%;
+    padding: 90px 0;
+    background-color: lightgray;
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+}
+.form-box {
+    margin-left: 139px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-right: 139px;
+
+}
+.button-block {
+    width: 200px;
+    height: 45px;
+    background-color: #5863F8;
+    margin-top: 30px;
+    color: #FFFFFF;
+    border: none;
+}
+.fa-location-arrow {
+    color: #FFFFFF;
+    font-size: small;
+    margin-left: 20px;
+}
+.label-text {
+    color: blue;
+}
+
+
+.input2-block {
+    width: 352px;
+    height: 60px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: none; 
+    background-color: lightgray; 
+}
+.textarea-block {
+    width: 720px;
+    height: 288px;
+    border: none;
+    resize: none;
+    background-color: lightgray; 
+    padding: 30px;
+}
+.form2-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            /* justify-content: space-between; */
+    margin-left: 139px;
+    margin-right: 139px;
+    
+}
+.button2-block {
+    width: 352px;
+    height: 60px;
+    background-color: #5863F8;
+    color: #FFFFFF;
+    border: none;
+}
+.form-text {
+    width: 331px;
+    margin-left: 139px;
+    margin-bottom: 30px;
+}
+.form-text1 {
+    color: blue;
+    text-transform: uppercase;
+    
+}
+.form-title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.container2 {
+    width: 100%;
+    margin-bottom: 60px;
+}
+.input2-block:focus,
+.textarea-block:focus {
+    outline: none;
+}
+
+.box-wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 139px;
+   
+}
+.icon {
+    width: 60px;
+    height: 60px;
+    background-color: #5863F8;
+    border-radius: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+.box-1 p, h3 {
+    text-align: center;
+    
+}
+.box-1 h3 {
+    margin-top: 26px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.textarea-block {
+    margin-right: 16px;
+}
+.box-1 {
+    width: 352px;
+}
